@@ -1,0 +1,11 @@
+[
+  {"id": "BV1", "year": 1899, "month": 12, "day": 31, "expectation": "-1"},
+  {"id": "BV2", "year": 1900, "month": 1, "day": 1, "expectation": "1900-1-2"},
+  {"id": "BV3", "year": 2100, "month": 12, "day": 31, "expectation": "-1"},
+  {"id": "BV4", "year": 2101, "month": 1, "day": 1, "expectation": "-1"},
+  {"id": "BV5", "year": 2000, "month": 2, "day": 29, "expectation": "2000-3-1"},
+  {"id": "BV6", "year": 2001, "month": 2, "day": 28, "expectation": "2001-3-1"},
+  {"id": "BV7", "year": 2000, "month": 2, "day": 30, "expectation": "-1"},
+  {"id": "BV8", "year": 1999, "month": 12, "day": 31, "expectation": "2000-1-1"}
+]
+

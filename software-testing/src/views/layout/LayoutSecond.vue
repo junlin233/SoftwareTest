@@ -8,9 +8,16 @@ const activeName = computed(() => {
   const pathSegments = route.path.split('/');
   return pathSegments.slice(-2)
 });
+
+// 为了避免没有写的页面路由跳转出问题，先关闭别的页面的路由跳转
+// 新增页面后，根据是否实现，选择放入的位置
 const simple = ['one','two']
+const simple2 = ['five','ten']
 const isShow = computed(()=>{
   return simple.includes(activeName.value[0])
+})
+const isShow2 = computed(()=>{
+  return simple2.includes(activeName.value[0])
 })
 
 const handleTabClick = (tab) =>{
@@ -26,7 +33,7 @@ const handleTabClick = (tab) =>{
     <el-tab-pane v-if="isShow" label="单个测试" name="single"><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="excel" name="excel"><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="bug" name="bug"><router-view></router-view></el-tab-pane>
-    <el-tab-pane v-if="!isShow" label="题目解答" name="answer"><router-view></router-view></el-tab-pane>
+    <el-tab-pane v-if="!isShow&&isShow2" label="题目解答" name="answer"><router-view></router-view></el-tab-pane>
   </el-tabs>
 
 </template>

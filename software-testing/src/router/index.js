@@ -27,10 +27,7 @@ import FourExcel from "@/views/four/ExcelFile.vue";
 import FourBug from "@/views/four/BugPage.vue";
 
 import FiveQuestion from '@/views/five/QuestionPage.vue';
-import FiveSystem from "@/views/five/SystemTest.vue";
-import FiveSingle from "@/views/five/SingleTest.vue";
-import FiveExcel from "@/views/five/ExcelFile.vue";
-import FiveBug from "@/views/five/BugPage.vue";
+import FiveAnswer from '@/views/five/Answer.vue';
 
 import SixQuestion from '@/views/six/QuestionPage.vue';
 import SixSystem from "@/views/six/SystemTest.vue";
@@ -57,10 +54,6 @@ import NineExcel from "@/views/nine/ExcelFile.vue";
 import NineBug from "@/views/nine/BugPage.vue";
 
 import TenQuestion from '@/views/ten/QuestionPage.vue';
-// import TenSystem from "@/views/ten/SystemTest.vue";
-// import TenSingle from "@/views/ten/SingleTest.vue";
-// import TenExcel from "@/views/ten/ExcelFile.vue";
-// import TenBug from "@/views/ten/BugPage.vue";
 import TenAnswer from "@/views/ten/Answer.vue";
 
 import ElevenQuestion from '@/views/eleven/QuestionPage.vue';
@@ -220,20 +213,8 @@ const router = createRouter({
               component: FiveQuestion
             },
             {
-              path: 'system',
-              component: FiveSystem
-            },
-            {
-              path: 'single',
-              component: FiveSingle
-            },
-            {
-              path: 'excel',
-              component: FiveExcel
-            },
-            {
-              path: 'bug',
-              component: FiveBug
+              path: 'answer',
+              component: FiveAnswer
             },
           ]
         },

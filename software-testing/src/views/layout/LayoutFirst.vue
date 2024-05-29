@@ -17,7 +17,6 @@ const index = computed(()=>{
       <el-aside>
         <el-menu
             router
-            class="el-menu-vertical-demo"
             background-color="#fff"
             text-color="black"
             active-text-color='blue'
@@ -61,8 +60,12 @@ const index = computed(()=>{
 
 
 <style scoped lang="less">
-.el-container{
+.common-layout{
   height: 100vh;
+}
+.el-container{
+  height: 100%;
+
   .el-aside{
     width: 200px;
     background-color: #fff;

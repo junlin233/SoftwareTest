@@ -27,7 +27,7 @@ const handleTabClick = (tab) =>{
 
 <template>
   <div class="ball"></div>
-  <el-tabs style="height: 100%;" v-model="activeName[1]" class="demo-tabs" @tab-click="handleTabClick" type="border-card">
+  <el-tabs style="height: 100%; border: none" v-model="activeName[1]" class="demo-tabs" @tab-click="handleTabClick" type="border-card">
     <el-tab-pane label="问题描述" name="question" ><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="单元测试" name="system"><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="单个测试" name="single"><router-view></router-view></el-tab-pane>

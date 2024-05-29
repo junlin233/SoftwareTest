@@ -62,7 +62,7 @@ const handleTabClick = (tab) =>{
      left: 0;
    }
    100%{
-     left: 91%
+     left: calc(100% - 125px)
    }
  }
  @keyframes actionY {
@@ -70,7 +70,7 @@ const handleTabClick = (tab) =>{
      top:0;
    }
    100%{
-     top: 89%
+     top:calc(100% - 125px)
    }
  }
 </style>

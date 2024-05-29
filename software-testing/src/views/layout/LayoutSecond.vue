@@ -26,6 +26,7 @@ const handleTabClick = (tab) =>{
     <el-tab-pane v-if="isShow" label="单个测试" name="single"><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="excel" name="excel"><router-view></router-view></el-tab-pane>
     <el-tab-pane v-if="isShow" label="bug" name="bug"><router-view></router-view></el-tab-pane>
+    <el-tab-pane v-if="!isShow" label="题目解答" name="answer"><router-view></router-view></el-tab-pane>
   </el-tabs>
 
 </template>

@@ -42,6 +42,7 @@ const index = computed(()=>{
               <el-menu-item index="/ten">10.实时Web系统</el-menu-item>
               <el-menu-item index="/eleven">11.构建程序图</el-menu-item>
               <el-menu-item index="/twelve">12.销售系统</el-menu-item>
+              <el-menu-item index="/thirteen">13.真实项目分析边界值</el-menu-item>
             </el-menu-item-group>
           </el-sub-menu>
         </el-menu>

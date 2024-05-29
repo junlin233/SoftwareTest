@@ -57,10 +57,11 @@ import NineExcel from "@/views/nine/ExcelFile.vue";
 import NineBug from "@/views/nine/BugPage.vue";
 
 import TenQuestion from '@/views/ten/QuestionPage.vue';
-import TenSystem from "@/views/ten/SystemTest.vue";
-import TenSingle from "@/views/ten/SingleTest.vue";
-import TenExcel from "@/views/ten/ExcelFile.vue";
-import TenBug from "@/views/ten/BugPage.vue";
+// import TenSystem from "@/views/ten/SystemTest.vue";
+// import TenSingle from "@/views/ten/SingleTest.vue";
+// import TenExcel from "@/views/ten/ExcelFile.vue";
+// import TenBug from "@/views/ten/BugPage.vue";
+import TenAnswer from "@/views/ten/Answer.vue";
 
 import ElevenQuestion from '@/views/eleven/QuestionPage.vue';
 import ElevenSystem from "@/views/eleven/SystemTest.vue";
@@ -353,21 +354,10 @@ const router = createRouter({
               path: 'question',
               component: TenQuestion
             },
+            
             {
-              path: 'system',
-              component: TenSystem
-            },
-            {
-              path: 'single',
-              component: TenSingle
-            },
-            {
-              path: 'excel',
-              component: TenExcel
-            },
-            {
-              path: 'bug',
-              component: TenBug
+              path: 'answer',
+              component: TenAnswer
             },
           ]
         },

@@ -4,11 +4,13 @@ export const judgeTriangle = ({A,B,C})=>{
             return isNaN(+item) ? item : +item
         }
     })
-    console.log(sides)
     if(!sides.every(item => typeof item === 'number'))
         return 'error'
     sides.sort((a,b)=>a-b)
-    if(sides[0]<=0||sides[0]+sides[1]<=sides[2])
+    console.log(sides)
+    if(sides[0]<=0||sides[2]>256)
+        return '输入无效'
+    if(sides[0]+sides[1]<=sides[2])
         return '不构成三角形'
     if(sides[0]===sides[2])
         return '等边三角形'

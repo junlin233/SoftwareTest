@@ -15,10 +15,7 @@ import TwoExcel from "@/views/two/ExcelFile.vue";
 import TwoBug from "@/views/two/BugPage.vue";
 
 import ThreeQuestion from '@/views/three/QuestionPage.vue';
-import ThreeSystem from "@/views/three/SystemTest.vue";
-import ThreeSingle from "@/views/three/SingleTest.vue";
-import ThreeExcel from "@/views/three/ExcelFile.vue";
-import ThreeBug from "@/views/three/BugPage.vue";
+import ThreeAnswer from "@/views/three/AnswerPage.vue"
 
 import FourQuestion from '@/views/four/QuestionPage.vue';
 import FourSystem from "@/views/four/SystemTest.vue";
@@ -57,10 +54,7 @@ import TenQuestion from '@/views/ten/QuestionPage.vue';
 import TenAnswer from "@/views/ten/Answer.vue";
 
 import ElevenQuestion from '@/views/eleven/QuestionPage.vue';
-import ElevenSystem from "@/views/eleven/SystemTest.vue";
-import ElevenSingle from "@/views/eleven/SingleTest.vue";
-import ElevenExcel from "@/views/eleven/ExcelFile.vue";
-import ElevenBug from "@/views/eleven/BugPage.vue";
+import ElevenAnswer from "@/views/eleven/AnswerPage.vue"
 
 import TwelveQuestion from '@/views/twelve/QuestionPage.vue';
 import TwelveSystem from "@/views/twelve/SystemTest.vue";
@@ -159,21 +153,9 @@ const router = createRouter({
               component: ThreeQuestion
             },
             {
-              path: 'system',
-              component: ThreeSystem
-            },
-            {
-              path: 'single',
-              component: ThreeSingle
-            },
-            {
-              path: 'excel',
-              component: ThreeExcel
-            },
-            {
-              path: 'bug',
-              component: ThreeBug
-            },
+              path: 'answer',
+              component: ThreeAnswer
+            }
           ]
         },
         {
@@ -352,20 +334,8 @@ const router = createRouter({
               component: ElevenQuestion
             },
             {
-              path: 'system',
-              component: ElevenSystem
-            },
-            {
-              path: 'single',
-              component: ElevenSingle
-            },
-            {
-              path: 'excel',
-              component: ElevenExcel
-            },
-            {
-              path: 'bug',
-              component: ElevenBug
+              path: 'answer',
+              component: ElevenAnswer
             },
           ]
         },

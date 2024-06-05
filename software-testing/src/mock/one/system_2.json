@@ -1,13 +1,13 @@
 [
-  {"id": "TC9", "A": 3, "B": 4, "C": 5, "expectation": "一般三角形"},
-  {"id": "TC10", "A": 100, "B": 100, "C": 100, "expectation": "等边三角形"},
-  {"id": "TC11", "A": 50, "B": 50, "C": 80, "expectation": "等腰三角形"},
-  {"id": "TC12", "A": 30, "B": 40, "C": 50, "expectation": "一般三角形"},
-  {"id": "TC13", "A": 0, "B": 50, "C": 50, "expectation": "输入无效"},
-  {"id": "TC14", "A": 10, "B": 30, "C": 40, "expectation": "不构成三角形"},
-  {"id": "TC15", "A": -1, "B": 50, "C": 50, "expectation": "输入无效"},
-  {"id": "TC20", "A": 200, "B": 200, "C": 200, "expectation": "等边三角形"},
-  {"id": "TC21", "A": 25, "B": 25, "C": 50, "expectation": "不构成三角形"},
-  {"id": "TC22", "A": 5, "B": 10, "C": 14, "expectation": "一般三角形"},
-  {"id": "TC23", "A": 100, "B": 100, "C": 1, "expectation": "等腰三角形"}
+  {"id": "TC1", "A": 3, "B": 4, "C": 5, "expectation": "一般三角形"},
+  {"id": "TC2", "A": 100, "B": 100, "C": 100, "expectation": "等边三角形"},
+  {"id": "TC3", "A": 50, "B": 50, "C": 80, "expectation": "等腰三角形"},
+  {"id": "TC4", "A": 30, "B": 40, "C": 50, "expectation": "一般三角形"},
+  {"id": "TC5", "A": 0, "B": 50, "C": 50, "expectation": "输入无效"},
+  {"id": "TC6", "A": 10, "B": 30, "C": 40, "expectation": "不构成三角形"},
+  {"id": "TC7", "A": -1, "B": 50, "C": 50, "expectation": "输入无效"},
+  {"id": "TC8", "A": 200, "B": 200, "C": 200, "expectation": "等边三角形"},
+  {"id": "TC9", "A": 25, "B": 25, "C": 50, "expectation": "不构成三角形"},
+  {"id": "TC10", "A": 5, "B": 10, "C": 14, "expectation": "一般三角形"},
+  {"id": "TC11", "A": 100, "B": 100, "C": 1, "expectation": "等腰三角形"}
 ]

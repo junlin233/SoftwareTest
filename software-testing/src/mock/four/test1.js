@@ -163,15 +163,6 @@ export const test1 = [
   },
   {
     testCaseID: 'TC19',
-    cpu: 0,
-    monitor: 0,
-    peripheral: 0,
-    totalSales: -1,
-    actualCommission: -1,
-    result: 'Error'
-  },
-  {
-    testCaseID: 'TC20',
     cpu: 35,
     monitor: 40,
     peripheral: 45,

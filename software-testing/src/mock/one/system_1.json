@@ -7,9 +7,9 @@
   {"id": "TC6", "A": 256, "B": 255, "C": 1, "expectation": "不构成三角形"},
   {"id": "TC7", "A": 257, "B": 256, "C": 256, "expectation": "输入无效"},
   {"id": "TC8", "A": 256, "B": 257, "C": 257, "expectation": "输入无效"},
-  {"id": "TC16", "A": 256, "B": 255, "C": 255, "expectation": "等腰三角形"},
-  {"id": "TC17", "A": 2, "B": 256, "C": 255, "expectation": "一般三角形"},
-  {"id": "TC18", "A": 3, "B": 4, "C": 5, "expectation": "一般三角形"},
-  {"id": "TC19", "A": 257, "B": 257, "C": 1, "expectation": "输入无效"}
+  {"id": "TC9", "A": 256, "B": 255, "C": 255, "expectation": "等腰三角形"},
+  {"id": "TC10", "A": 2, "B": 256, "C": 255, "expectation": "一般三角形"},
+  {"id": "TC11", "A": 3, "B": 4, "C": 5, "expectation": "一般三角形"},
+  {"id": "TC12", "A": 257, "B": 257, "C": 1, "expectation": "输入无效"}
 ]
 

@@ -10,8 +10,8 @@ let md = new MarkdownIt();
 let test2 = `
 | 编号 | 代码块 |
 | ---- | ------ |
-| 1    | \`c unsigned Zcode, Bcode; int i, j, k, Rec, Color; long Len; char Buf[72];\` |
-| 2    | \`c while (*Str)\` |
+| 1    | \` unsigned Zcode, Bcode; int i, j, k, Rec, Color; long Len; char Buf[72];\` |
+| 2    | \` while (*Str)\` |
 | 3    | \`if ((*Str & 0x80) && (*(Str+1) & 0x80))\` |
 | 4    | \`Zcode = (*Str - 0xa1) & 0x07f; Bcode = (*(Str + 1) - 0xa1) & 0x07f; Rec = Zcode * 94 + Bcode; Len = Rec * 72L;\` |
 | 5    | \`fseek(fp, Len, SEEK_SET);\` |

@@ -1,0 +1,62 @@
+[
+    {
+        "testCaseID": "S1",
+        "time": 30,
+        "count": 1,
+        "expectedMoney": 29.455
+    },
+    {
+        "testCaseID": "S2",
+        "time": 30,
+        "count": 2,
+        "expectedMoney": 29.5
+    },
+    {
+        "testCaseID": "S3",
+        "time": 90,
+        "count": 2,
+        "expectedMoney": 38.2975
+    },
+    {
+        "testCaseID": "S4",
+        "time": 90,
+        "count": 3,
+        "expectedMoney": 38.5
+    },
+    {
+        "testCaseID": "S5",
+        "time": 150,
+        "count": 3,
+        "expectedMoney": 47.05
+    },
+    {
+        "testCaseID": "S6",
+        "time": 150,
+        "count": 4,
+        "expectedMoney": 47.5
+    },
+    {
+        "testCaseID": "S7",
+        "time": 210,
+        "count": 3,
+        "expectedMoney": 55.7125
+    },
+    {
+        "testCaseID": "S8",
+        "time": 210,
+        "count": 4,
+        "expectedMoney": 56.5
+    },
+    {
+        "testCaseID": "S9",
+        "time": 350,
+        "count": 6,
+        "expectedMoney": 75.925
+    },
+    {
+        "testCaseID": "S10",
+        "time": 350,
+        "count": 11,
+        "expectedMoney": 77.5
+    }
+]

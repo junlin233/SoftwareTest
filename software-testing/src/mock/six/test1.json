@@ -1,0 +1,80 @@
+[
+    {
+        "testCaseID": "TC1",
+        "time": -1,
+        "count": 6,
+        "expectedMoney": -1
+    },
+    {
+        "testCaseID": "TC2",
+        "time": 0,
+        "count": 6,
+        "expectedMoney": 25
+    },
+    {
+        "testCaseID": "TC3",
+        "time": 10,
+        "count": 6,
+        "expectedMoney": 26.5
+    },
+    {
+        "testCaseID": "TC4",
+        "time": 40000,
+        "count": 6,
+        "expectedMoney": 5845
+    },
+    {
+        "testCaseID": "TC5",
+        "time": 44640,
+        "count": 6,
+        "expectedMoney": 6520.12
+    },
+    {
+        "testCaseID": "TC6",
+        "time": 44641,
+        "count": 6,
+        "expectedMoney": -1
+    },
+    {
+        "testCaseID": "TC7",
+        "time": 20000,
+        "count": -1,
+        "expectedMoney": -1
+    },
+    {
+        "testCaseID": "TC8",
+        "time": 20000,
+        "count": 0,
+        "expectedMoney": 2935
+    },
+    {
+        "testCaseID": "TC9",
+        "time": 20000,
+        "count": 1,
+        "expectedMoney": 2935
+    },
+    {
+        "testCaseID": "TC10",
+        "time": 20000,
+        "count": 10,
+        "expectedMoney": 3025
+    },
+    {
+        "testCaseID": "TC11",
+        "time": 20000,
+        "count": 11,
+        "expectedMoney": 3025
+    },
+    {
+        "testCaseID": "TC12",
+        "time": 20000,
+        "count": 12,
+        "expectedMoney": -1
+    },
+    {
+        "testCaseID": "TC13",
+        "time": 20000,
+        "count": 6,
+        "expectedMoney": 2935
+    }
+]

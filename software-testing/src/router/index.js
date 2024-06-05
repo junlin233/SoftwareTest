@@ -6,13 +6,11 @@ import OneQuestion from '@/views/one/QuestionPage.vue'
 import OneSystem from "@/views/one/SystemTest.vue";
 import OneSingle from "@/views/one/SingleTest.vue";
 import OneExcel from "@/views/one/ExcelFile.vue";
-import OneBug from "@/views/one/BugPage.vue";
 
 import TwoQuestion from '@/views/two/QuestionPage.vue'
 import TwoSystem from "@/views/two/SystemTest.vue";
 import TwoSingle from "@/views/two/SingleTest.vue";
 import TwoExcel from "@/views/two/ExcelFile.vue";
-import TwoBug from "@/views/two/BugPage.vue";
 
 import ThreeQuestion from '@/views/three/QuestionPage.vue';
 import ThreeAnswer from "@/views/three/AnswerPage.vue"
@@ -21,7 +19,6 @@ import FourQuestion from '@/views/four/QuestionPage.vue';
 import FourSystem from "@/views/four/SystemTest.vue";
 import FourSingle from "@/views/four/SingleTest.vue";
 import FourExcel from "@/views/four/ExcelFile.vue";
-import FourBug from "@/views/four/BugPage.vue";
 
 import FiveQuestion from '@/views/five/QuestionPage.vue';
 import FiveAnswer from '@/views/five/Answer.vue';
@@ -30,25 +27,21 @@ import SixQuestion from '@/views/six/QuestionPage.vue';
 import SixSystem from "@/views/six/SystemTest.vue";
 import SixSingle from "@/views/six/SingleTest.vue";
 import SixExcel from "@/views/six/ExcelFile.vue";
-import SixBug from "@/views/six/BugPage.vue";
 
 import SevenQuestion from '@/views/seven/QuestionPage.vue';
 import SevenSystem from "@/views/seven/SystemTest.vue";
 import SevenSingle from "@/views/seven/SingleTest.vue";
 import SevenExcel from "@/views/seven/ExcelFile.vue";
-import SevenBug from "@/views/seven/BugPage.vue";
 
 import EightQuestion from '@/views/eight/QuestionPage.vue';
 import EightSystem from "@/views/eight/SystemTest.vue";
 import EightSingle from "@/views/eight/SingleTest.vue";
 import EightExcel from "@/views/eight/ExcelFile.vue";
-import EightBug from "@/views/eight/BugPage.vue";
 
 import NineQuestion from '@/views/nine/QuestionPage.vue';
 import NineSystem from "@/views/nine/SystemTest.vue";
 import NineSingle from "@/views/nine/SingleTest.vue";
 import NineExcel from "@/views/nine/ExcelFile.vue";
-import NineBug from "@/views/nine/BugPage.vue";
 
 import TenQuestion from '@/views/ten/QuestionPage.vue';
 import TenAnswer from "@/views/ten/Answer.vue";
@@ -60,25 +53,21 @@ import TwelveQuestion from '@/views/twelve/QuestionPage.vue';
 import TwelveSystem from "@/views/twelve/SystemTest.vue";
 import TwelveSingle from "@/views/twelve/SingleTest.vue";
 import TwelveExcel from "@/views/twelve/ExcelFile.vue";
-import TwelveBug from "@/views/twelve/BugPage.vue";
 
 import ThirteenQuestion from '@/views/thirteen/QuestionPage.vue';
 import ThirteenSystem from "@/views/thirteen/SystemTest.vue";
 import ThirteenSingle from "@/views/thirteen/SingleTest.vue";
 import ThirteenExcel from "@/views/thirteen/ExcelFile.vue";
-import ThirteenBug from "@/views/thirteen/BugPage.vue";
 
 import FourteenQuestion from '@/views/fourteen/QuestionPage.vue';
 import FourteenSystem from "@/views/fourteen/SystemTest.vue";
 import FourteenSingle from "@/views/fourteen/SingleTest.vue";
 import FourteenExcel from "@/views/fourteen/ExcelFile.vue";
-import FourteenBug from "@/views/fourteen/BugPage.vue";
 
 import FifteenQuestion from '@/views/fifteen/QuestionPage.vue';
 import FifteenSystem from "@/views/fifteen/SystemTest.vue";
 import FifteenSingle from "@/views/fifteen/SingleTest.vue";
 import FifteenExcel from "@/views/fifteen/ExcelFile.vue";
-import FifteenBug from "@/views/fifteen/BugPage.vue";
 
 
 const router = createRouter({
@@ -110,10 +99,6 @@ const router = createRouter({
               path:'excel',
               component:OneExcel
             },
-            {
-              path:'bug',
-              component:OneBug
-            },
           ]
         },
         {
@@ -136,10 +121,6 @@ const router = createRouter({
             {
               path:'excel',
               component:TwoExcel
-            },
-            {
-              path:'bug',
-              component:TwoBug
             },
           ]
         },
@@ -179,10 +160,6 @@ const router = createRouter({
               path: 'excel',
               component: FourExcel
             },
-            {
-              path: 'bug',
-              component: FourBug
-            },
           ]
         },
         {
@@ -221,10 +198,6 @@ const router = createRouter({
               path: 'excel',
               component: SixExcel
             },
-            {
-              path: 'bug',
-              component: SixBug
-            },
           ]
         },
         {
@@ -247,10 +220,6 @@ const router = createRouter({
             {
               path: 'excel',
               component: SevenExcel
-            },
-            {
-              path: 'bug',
-              component: SevenBug
             },
           ]
         },
@@ -275,10 +244,6 @@ const router = createRouter({
               path: 'excel',
               component: EightExcel
             },
-            {
-              path: 'bug',
-              component: EightBug
-            },
           ]
         },
         {
@@ -301,10 +266,6 @@ const router = createRouter({
             {
               path: 'excel',
               component: NineExcel
-            },
-            {
-              path: 'bug',
-              component: NineBug
             },
           ]
         },
@@ -360,10 +321,6 @@ const router = createRouter({
               path: 'excel',
               component: TwelveExcel
             },
-            {
-              path: 'bug',
-              component: TwelveBug
-            },
           ]
         },
         {
@@ -386,10 +343,6 @@ const router = createRouter({
             {
               path: 'excel',
               component: ThirteenExcel
-            },
-            {
-              path: 'bug',
-              component: ThirteenBug
             },
           ]
         },
@@ -414,10 +367,6 @@ const router = createRouter({
               path: 'excel',
               component: FourteenExcel
             },
-            {
-              path: 'bug',
-              component: FourteenBug
-            },
           ]
         },
         {
@@ -440,10 +389,6 @@ const router = createRouter({
             {
               path: 'excel',
               component: FifteenExcel
-            },
-            {
-              path: 'bug',
-              component: FifteenBug
             },
           ]
         }

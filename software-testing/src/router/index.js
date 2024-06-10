@@ -29,19 +29,13 @@ import SixSingle from "@/views/six/SingleTest.vue";
 import SixExcel from "@/views/six/ExcelFile.vue";
 
 import SevenQuestion from '@/views/seven/QuestionPage.vue';
-import SevenSystem from "@/views/seven/SystemTest.vue";
-import SevenSingle from "@/views/seven/SingleTest.vue";
-import SevenExcel from "@/views/seven/ExcelFile.vue";
+import SevenAnswer from '@/views/seven/AnswerPage.vue'
 
 import EightQuestion from '@/views/eight/QuestionPage.vue';
-import EightSystem from "@/views/eight/SystemTest.vue";
-import EightSingle from "@/views/eight/SingleTest.vue";
-import EightExcel from "@/views/eight/ExcelFile.vue";
+import EightAnswer from "@/views/eight/AnswerPage.vue";
 
 import NineQuestion from '@/views/nine/QuestionPage.vue';
-import NineSystem from "@/views/nine/SystemTest.vue";
-import NineSingle from "@/views/nine/SingleTest.vue";
-import NineExcel from "@/views/nine/ExcelFile.vue";
+import NineAnswer from "@/views/nine/AnswerPage.vue";
 
 import TenQuestion from '@/views/ten/QuestionPage.vue';
 import TenAnswer from "@/views/ten/Answer.vue";
@@ -210,16 +204,8 @@ const router = createRouter({
               component: SevenQuestion
             },
             {
-              path: 'system',
-              component: SevenSystem
-            },
-            {
-              path: 'single',
-              component: SevenSingle
-            },
-            {
-              path: 'excel',
-              component: SevenExcel
+              path: 'answer',
+              component: SevenAnswer
             },
           ]
         },
@@ -233,16 +219,8 @@ const router = createRouter({
               component: EightQuestion
             },
             {
-              path: 'system',
-              component: EightSystem
-            },
-            {
-              path: 'single',
-              component: EightSingle
-            },
-            {
-              path: 'excel',
-              component: EightExcel
+              path: 'answer',
+              component: EightAnswer
             },
           ]
         },
@@ -256,16 +234,8 @@ const router = createRouter({
               component: NineQuestion
             },
             {
-              path: 'system',
-              component: NineSystem
-            },
-            {
-              path: 'single',
-              component: NineSingle
-            },
-            {
-              path: 'excel',
-              component: NineExcel
+              path: 'answer',
+              component: NineAnswer
             },
           ]
         },

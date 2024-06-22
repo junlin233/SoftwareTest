@@ -49,9 +49,7 @@ import TwelveSingle from "@/views/twelve/SingleTest.vue";
 import TwelveExcel from "@/views/twelve/ExcelFile.vue";
 
 import ThirteenQuestion from '@/views/thirteen/QuestionPage.vue';
-import ThirteenSystem from "@/views/thirteen/SystemTest.vue";
-import ThirteenSingle from "@/views/thirteen/SingleTest.vue";
-import ThirteenExcel from "@/views/thirteen/ExcelFile.vue";
+import ThirteenAnswer from "@/views/thirteen/AnswerPage.vue";
 
 import FourteenQuestion from '@/views/fourteen/QuestionPage.vue';
 import FourteenSystem from "@/views/fourteen/SystemTest.vue";
@@ -303,16 +301,8 @@ const router = createRouter({
               component: ThirteenQuestion
             },
             {
-              path: 'system',
-              component: ThirteenSystem
-            },
-            {
-              path: 'single',
-              component: ThirteenSingle
-            },
-            {
-              path: 'excel',
-              component: ThirteenExcel
+              path: 'answer',
+              component: ThirteenAnswer
             },
           ]
         },

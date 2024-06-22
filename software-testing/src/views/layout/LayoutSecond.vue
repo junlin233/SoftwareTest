@@ -12,7 +12,7 @@ const activeName = computed(() => {
 // 为了避免没有写的页面路由跳转出问题，先关闭别的页面的路由跳转
 // 新增页面后，根据是否实现，选择放入的位置
 const simple = ['one','two','four','six','twelve']
-const simple2 = ['three','five','seven','eight','nine','ten','eleven']
+const simple2 = ['three','five','seven','eight','nine','ten','eleven','thirteen']
 const isShow = computed(()=>{
   return simple.includes(activeName.value[0])
 })
